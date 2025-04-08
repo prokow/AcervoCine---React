@@ -1,11 +1,7 @@
-# Acervo Cine - O Melhor Acervo de Filmes
+# 🎬 Acervo Cine - O Melhor Acervo de Filmes 🍿
 
-Feito em React, este site se dispõe dos melhores filmes mais bem avaliados nos ultimos anos,
-e isso é feito diante do database chamado TMDB (TheMoviesDataBase), que possui estes filmes
-além de outros com o qual o usuário for buscar. E em cada filme, o usuário pode inserir
-sua critica/resenha/analise de determinado filme
+**Trabalho 2 - TDS**
+Feito em **React**, este site reúne os **melhores filmes mais bem avaliados** dos últimos anos ⭐.  
+A mágica acontece com a ajuda da API **TMDB (The Movie Database)** 🎥, que fornece dados atualizados sobre milhares de filmes — incluindo os que o usuário pesquisar 🔍.
 
-
-API usada: https://www.themoviedb.org/
-
-
+🔗 **API usada:** [The Movie Database (TMDB)](https://www.themoviedb.org/)  
