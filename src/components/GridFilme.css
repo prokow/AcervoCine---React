@@ -1,0 +1,63 @@
+/* para search e filme para pegar o movie container*/
+
+.container .title{
+    color: #FFF;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 20rem 0 1rem;
+}
+
+.title .query-text{
+    color: #F7D354;
+}
+
+/* de três em três filmes */
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;                /* vai quebrar a linha */
+    justify-content: space-between; /* vai dar um espaço entre os filmes  */
+}
+
+.movies-container div{
+    width: 30%;                     /* vai ocupar 30% da tela */
+    color: #fff;
+    margin-bottom: 2rem;            /* vai dar um espaço entre os filmes */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 1rem;
+}
+
+
+.movies-container div img{
+    max-width: 100%;
+
+}
+
+.movies-container div img, .movies-container div h2,
+.movies-container div p{
+    margin-bottom: 1rem;
+}
+
+.movies-container div svg{ /* estrela */
+    color: yellow;
+}
+
+
+.movies-container div a { /* botão de detalhes */
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 4px;
+    color: black;   
+    padding: 1rem 0.5rem;
+    align-items: center;
+    transition: .4s;
+    text-align: center;
+    font-weight: bold;
+}
+
+.movies-container div a:hover{ /* ao passar sob o botão de detalhes */
+    background-color: transparent;
+    color: orange;
+}

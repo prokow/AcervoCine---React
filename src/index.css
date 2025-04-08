@@ -1,0 +1,23 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: white
+}
+
+a{
+  text-decoration: none;
+  color: orange;
+  transition: .5s;
+}
+
+
+/* quando passar ficara mais escuro */
+a:hover{ 
+  color: orangered;
+}

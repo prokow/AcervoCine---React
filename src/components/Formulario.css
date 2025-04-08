@@ -1,0 +1,89 @@
+.form-critica {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #1f1f1c;
+  color: white;
+  border-radius: 15px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form-label input,
+.form-label textarea,
+.form-label select {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.rating-stars {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.estrela {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.submit-button {
+  padding: 50px 20px;
+  background-color: orange;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center;
+  transition: .4s;
+  font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: orangered;
+}
+
+.form-critica label {
+  display: block;
+  margin: 1rem 0;
+}
+
+.form-critica input,
+.form-critica textarea,
+.form-critica select {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.3rem;
+  background: #333;
+  border: 1px solid #444;
+  color: white;
+}
+
+.form-critica button {
+  background: #F7D354;
+  color: black;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mensagem-sucesso {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  text-align: center;
+}

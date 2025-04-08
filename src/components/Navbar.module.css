@@ -1,0 +1,45 @@
+/* Navbar.module.css */
+.navbar { /* barra de navegação */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+    background-color: #121212;
+}
+
+.logo a { /* logo */
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.form { /* pesquisa */
+    display: flex;
+    gap: .2rem;
+}
+
+.input { /* campo de pesquisa */
+    padding: .4rem .7rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.button { /* botão de pesquisa */
+    background-color: #1db954;
+    border: 2px solid #1db954;
+    border-radius: 4px;
+    color: white;   
+    padding: .3rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.button:hover { /* ao passar sob o botão de pesquisa */
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+
+
